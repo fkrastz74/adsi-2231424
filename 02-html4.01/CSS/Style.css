@@ -1,0 +1,17 @@
+
+div.box{
+    background-color: #c20505;
+    border: 4px dotted #18adad;
+    border-radius: 130px;
+    color: #fff
+    height: 250px;
+    font-size: 4em;
+    line-height: 4em;
+    margin: 200px auto;
+    text-align: center;
+    transition: all 0.5s;
+    width: 250px;
+}
+div.box:hover {
+
+}
