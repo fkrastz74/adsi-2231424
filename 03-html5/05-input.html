@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <h3>Type color:</h3>
+    <input type="color" oninput="hex.value=this.value" required>
+    <output id="hex"></output>
+    <!-- -->
+    <h3>Type Date:</h3>
+    <input type="date" required>
+    <!-- -->
+    <h3>Type Email:</h3>
+    <input type="email" placeholder="Email" required>
+    <!-- -->
+    <h3>Type Number (1-100):</h3>
+    <input type="number" min="1" max="100" required>
+    <!-- -->
+    <h3>Type Range:</h3>
+    <input type="range" min="0" max="100" step="2" oninput="perc.value=this.value+'%'" required>
+    <output id="perc"></output>
+    <!-- -->
+    <button>Send Form</button>
+</body>
+</html>
