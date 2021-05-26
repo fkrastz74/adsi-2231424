@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+       * { transition: all 0.5s ease-out  }
+        body {
+            background-color: #013571;
+            color: #ffffffaa;
+            font: 16px Verdana;
+            margin: 0px;
+            padding: 0px;
+        }
+        main {
+            border: 10px solid #ffffff66;
+            margin: 0px auto;
+            padding: 20px;
+        }
+        main figure.logo {
+            background: url(imgs/pepsi01.png) no-repeat center;
+            height: 354px;
+            margin: 0px auto;
+            width: 919px;
+        }
+        main h1 {text-align: center;
+        }
+        main h1 small {
+            font-size: 0.4em;
+        }
+        main h1 small.bp2,
+        main h1 small.bp3 {
+            display: none;
+        }
+        main p {
+            line-height: 1.8em;
+            text-align: justify;
+        }
+
+        @media ( max-width: ) {
+            main figure
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <figure class="logo"></figure>
+        <h1>
+            Media Queries
+            <small class="bp1">( > 1024px )</small>
+            <small class="bp2">( < 480px )</small>
+            <small class="bp3">( < 780px )</small>
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore asperiores vero, quae dignissimos optio, ducimus tenetur aliquam quis aperiam quam odio explicabo error! Maiores laboriosam eius animi. Beatae dolorum dolore maiores aspernatur repudiandae nemo voluptates earum distinctio quibusdam doloribus! Delectus necessitatibus eum placeat dolorem illo debitis doloribus architecto asperiores cum? Eius deleniti excepturi reprehenderit molestiae nisi consectetur ipsam error dignissimos, unde sequi quae quia minus earum sint, consequatur nihil dolores esse sapiente architecto vel doloribus sit, quisquam suscipit? Nisi suscipit alias eos eum, magni ad veniam perferendis quos quis harum, iste vitae. Quas reiciendis nemo recusandae amet impedit dolore alias fugiat ad soluta similique. Ab rem reiciendis nihil obcaecati aut quo quam architecto error minima distinctio commodi nam, cumque esse harum corrupti quas quae pariatur animi eligendi qui. Quia facilis voluptatum nobis, asperiores veritatis nihil itaque sed est. Necessitatibus harum earum culpa numquam similique dolor deserunt, explicabo nostrum accusantium voluptatibus adipisci aspernatur repellendus illum quibusdam obcaecati nemo libero nesciunt rerum consectetur. Dicta sed placeat neque aspernatur praesentium eligendi rem, reiciendis sit laborum quisquam odit autem veritatis tempore provident illum quos numquam distinctio aliquid non minus. Veniam adipisci mollitia unde harum, vel corrupti maxime modi aperiam beatae expedita quaerat quo explicabo?
+        </p>
+    </main>
+</body>
+</html>
